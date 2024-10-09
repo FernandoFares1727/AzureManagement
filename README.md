@@ -21,7 +21,33 @@ Containers e Kubernetes: Utilizar containers para consolidar cargas de trabalho 
 Serviços Serverless (como Azure Functions): Serviços serverless podem ser mais econômicos para cargas de trabalho intermitentes, pois cobram apenas pelo tempo de execução real.
 Essas práticas ajudam a ajustar o consumo de recursos conforme a necessidade, eliminando desperdícios e aproveitando os descontos e benefícios oferecidos pelo Azure.
 
+O gerenciamento de políticas no Azure envolve a criação, aplicação e monitoramento de regras que definem como os recursos da nuvem devem ser configurados e utilizados, de acordo com as diretrizes de conformidade e governança de uma organização. Isso ajuda a garantir que os recursos estejam alinhados com as melhores práticas, normas de segurança e requisitos de custo.
 
+Principais Aspectos do Gerenciamento de Políticas no Azure:
+Azure Policy
+
+Definição e Aplicação de Políticas: O Azure Policy permite definir políticas que aplicam regras específicas sobre os recursos, como restrições sobre o tipo de instância de VM, regiões permitidas, configurações de segurança, entre outros. Essas políticas podem ser aplicadas a assinaturas, grupos de recursos e até recursos individuais.
+Políticas Predefinidas e Personalizadas: O Azure oferece um conjunto de políticas predefinidas, mas também permite criar políticas personalizadas para atender às necessidades específicas da organização.
+Iniciativas (Policy Initiatives)
+
+Agrupamento de Políticas: As iniciativas são coleções de políticas que podem ser aplicadas de uma vez só para simplificar o gerenciamento e garantir que conjuntos de regras relacionados sejam aplicados de forma consistente. Por exemplo, uma iniciativa de “Segurança” pode incluir políticas para criptografia, controle de acesso e proteção de dados.
+Conformidade e Monitoramento
+
+Avaliação de Conformidade: O Azure Policy avalia continuamente a conformidade dos recursos com as políticas definidas e fornece relatórios que destacam áreas de não conformidade.
+Correção Automática: Algumas políticas permitem a correção automática de recursos que não estejam em conformidade, aplicando mudanças necessárias para garantir que os recursos estejam de acordo com as diretrizes.
+Exceções e Desvios
+
+Exclusões e Escopos: É possível definir exceções para que determinadas políticas não se apliquem a certos recursos, grupos ou assinaturas, proporcionando flexibilidade para situações especiais.
+Desvios Temporários: Para algumas situações, é possível configurar desvios temporários, permitindo que certos recursos operem fora das políticas definidas por um período limitado.
+Integração com Azure Blueprints e Role-Based Access Control (RBAC)
+
+Blueprints: Permitem combinar políticas, templates e controles de acesso para implantar configurações consistentes e com conformidade em ambientes novos ou existentes.
+Controle Baseado em Papéis (RBAC): Trabalha em conjunto com políticas para restringir ações que determinados usuários ou grupos podem realizar, reforçando o gerenciamento de políticas e melhorando a governança.
+Benefícios do Gerenciamento de Políticas:
+Conformidade Automática: Garantia de que os recursos estejam configurados de acordo com as políticas da empresa, evitando riscos de segurança e conformidade.
+Governança Centralizada: Facilita o controle e a monitorização de todas as políticas em um ambiente centralizado.
+Redução de Riscos e Custos: Automatizando correções e prevenindo a criação de recursos que não estão em conformidade, as políticas ajudam a reduzir desperdícios e possíveis riscos de segurança.
+O gerenciamento de políticas é essencial para manter um ambiente Azure seguro, econômico e alinhado com as necessidades de conformidade organizacional.
 
 
 
