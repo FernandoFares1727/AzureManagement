@@ -50,5 +50,45 @@ Redução de Riscos e Custos: Automatizando correções e prevenindo a criação
 O gerenciamento de políticas é essencial para manter um ambiente Azure seguro, econômico e alinhado com as necessidades de conformidade organizacional.
 
 
+As ferramentas de implantação do Azure facilitam a automatização, o gerenciamento e o controle da implementação de recursos e aplicativos na plataforma de nuvem. Elas permitem configurar, monitorar e manter infraestruturas e aplicações de forma eficiente, garantindo consistência e escalabilidade.
 
+Principais Ferramentas de Implantação do Azure:
+Azure Resource Manager (ARM)
+
+Modelo Declarativo: Permite definir a infraestrutura como código (IaC) através de templates JSON, especificando recursos como VMs, redes, bancos de dados, etc., e suas configurações. O ARM aplica essas definições de forma consistente.
+Gerenciamento de Grupos de Recursos: Organiza recursos em grupos, permitindo o gerenciamento, controle de acesso e monitoramento centralizado.
+Azure DevOps
+
+Pipelines de CI/CD: Oferece pipelines de integração contínua (CI) e entrega contínua (CD) para automatizar a construção, testes e implantação de aplicativos.
+Repositórios Git e Testes: Fornece controle de versão (com Git) e ferramentas de gerenciamento de projetos e testes, facilitando o ciclo de vida completo do desenvolvimento de software.
+GitHub Actions
+
+Automação de Workflows: Permite criar pipelines de CI/CD diretamente no GitHub, usando GitHub Actions para automatizar implantações no Azure, como por exemplo, o deployment de aplicações Web Apps ou de contêineres para o Azure Kubernetes Service (AKS).
+Integração com Azure: Possui ações pré-configuradas para automação e integração direta com o Azure, facilitando a configuração de implantações e infraestrutura.
+Azure CLI (Command-Line Interface)
+
+Automação via Scripts: A Azure CLI permite a implantação de recursos por meio de comandos executados em scripts de automação. Suporta a execução de comandos tanto localmente quanto em serviços de nuvem.
+Interatividade e Flexibilidade: Facilita o gerenciamento e implantação de recursos de forma rápida e interativa diretamente do terminal, integrando-se com scripts em linguagens como Bash e PowerShell.
+Azure PowerShell
+
+Automação Baseada em Scripts: Similar à Azure CLI, mas focado em ambientes Windows, o Azure PowerShell permite automação e scripts para gerenciamento de recursos no Azure. É usado por administradores de sistemas para criar, gerenciar e implantar infraestruturas e aplicativos.
+Cmdlets Específicos: Inclui cmdlets específicos para diferentes serviços do Azure, facilitando o gerenciamento em larga escala.
+Terraform
+
+Infraestrutura como Código Multinuvem: Uma ferramenta de código aberto que permite gerenciar infraestruturas de forma declarativa, funcionando em múltiplas nuvens, incluindo o Azure. Ele usa arquivos de configuração para criar e provisionar infraestrutura.
+Automação e Reutilização: Templates Terraform podem ser reutilizados para criar ambientes consistentes, e a ferramenta facilita a automação da criação de infraestruturas com foco em replicabilidade.
+Azure Blueprints
+
+Implantação Consistente de Governança e Infraestrutura: Permite definir, padronizar e implantar ambientes completos que incluam políticas, templates de ARM, controles de RBAC e recursos. Ideal para configurar ambientes com governança rígida em grandes organizações.
+Pipelines Automatizados: Permite combinar políticas de conformidade, segurança e infraestrutura em uma única implantação.
+Azure Kubernetes Service (AKS)
+
+Orquestração de Containers: AKS facilita o gerenciamento e a implantação de aplicativos baseados em containers. Ele automatiza operações complexas de Kubernetes, como dimensionamento e atualizações.
+Integração com Ferramentas de CI/CD: AKS se integra facilmente com Azure DevOps e outras ferramentas de CI/CD para automatizar a implantação contínua de aplicativos em clusters de Kubernetes.
+Benefícios das Ferramentas de Implantação do Azure:
+Automação: Reduz a intervenção manual e o risco de erros, melhorando a consistência das implantações.
+Eficiência: Melhora a eficiência operacional com pipelines automatizados e práticas de "Infraestrutura como Código".
+Escalabilidade: Facilita a escalabilidade da infraestrutura e a implantação de aplicativos em ambientes complexos e em múltiplas regiões.
+Governança: Garantem que as políticas de segurança e conformidade sejam aplicadas de maneira consistente em todos os ambientes.
+Essas ferramentas ajudam a otimizar o ciclo de vida da infraestrutura e dos aplicativos, desde o desenvolvimento até a produção, garantindo uma implantação eficiente e escalável.
 
