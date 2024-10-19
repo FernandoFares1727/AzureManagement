@@ -92,3 +92,45 @@ Escalabilidade: Facilita a escalabilidade da infraestrutura e a implantação de
 Governança: Garantem que as políticas de segurança e conformidade sejam aplicadas de maneira consistente em todos os ambientes.
 Essas ferramentas ajudam a otimizar o ciclo de vida da infraestrutura e dos aplicativos, desde o desenvolvimento até a produção, garantindo uma implantação eficiente e escalável.
 
+O monitoramento inteligente no Azure combina ferramentas e serviços para acompanhar o desempenho, a integridade e o uso dos recursos da nuvem, utilizando insights baseados em dados e automação para detectar, diagnosticar e resolver problemas de forma proativa. Isso permite uma gestão eficiente, otimização de recursos e maior confiabilidade dos sistemas.
+
+Principais Aspectos do Monitoramento Inteligente no Azure:
+Azure Monitor
+
+Coleta de Dados: Centraliza a coleta de métricas, logs, eventos e traces de praticamente todos os recursos do Azure e aplicativos, permitindo visibilidade total sobre a operação e o desempenho.
+Análise de Dados em Tempo Real: Permite monitorar e gerar alertas com base em métricas e logs, identificando padrões anormais e fornecendo insights em tempo real sobre o estado dos recursos.
+Dashboards Personalizáveis: Oferece painéis personalizados que exibem métricas chave e status de desempenho, possibilitando uma visão geral de toda a infraestrutura.
+Azure Log Analytics
+
+Consulta de Logs: Utiliza o Kusto Query Language (KQL) para consultas complexas em grandes volumes de dados, permitindo a identificação rápida de anomalias e a correlação de eventos em diferentes recursos.
+Centralização de Logs: Consolida logs de diferentes fontes, como VMs, containers, aplicativos e serviços do Azure, em um único local, facilitando a análise e a geração de insights.
+Azure Application Insights
+
+Monitoramento de Aplicativos: Ferramenta focada no monitoramento de desempenho e integridade de aplicações, fornecendo telemetria detalhada sobre o uso, exceções, falhas, e tempos de resposta.
+Detecção de Anomalias e Diagnósticos: Detecta automaticamente problemas de desempenho, gargalos e erros em aplicativos e fornece diagnósticos detalhados para facilitar a correção.
+Azure Security Center e Defender for Cloud
+
+Monitoramento de Segurança: Proporciona uma visão abrangente da segurança em todo o ambiente, detectando vulnerabilidades e recomendando ações para melhorar a postura de segurança.
+Proteção Contra Ameaças: Usa inteligência de ameaças e machine learning para detectar e alertar sobre atividades suspeitas ou ataques em potencial, ajudando a prevenir violações.
+Azure Alerts
+
+Alertas Personalizados: Permite configurar alertas baseados em métricas e logs para notificar os administradores de problemas potenciais. Pode gerar alertas por meio de e-mail, SMS, ou integrar-se a sistemas de gerenciamento de incidentes.
+Ação Automatizada: Integração com serviços como Azure Logic Apps ou Azure Functions para executar ações automáticas quando um alerta é disparado, ajudando na mitigação proativa de problemas.
+Azure Autoscale
+
+Ajuste Automático de Recursos: Ajusta dinamicamente a capacidade dos recursos com base em métricas de desempenho (como CPU ou uso de memória), otimizando custos e garantindo disponibilidade em cenários de alta demanda.
+Escalabilidade Proativa: Garante que a infraestrutura esteja sempre otimizada para o desempenho sem desperdício de recursos, escalando automaticamente para cima ou para baixo com base em condições predefinidas.
+Azure Advisor
+
+Recomendações Inteligentes: Fornece recomendações proativas para otimização de desempenho, segurança e economia de custos, com base na análise do uso dos recursos do Azure.
+Análise de Melhores Práticas: Avalia o ambiente e sugere melhorias para alinhá-lo às melhores práticas de desempenho e segurança.
+Azure Sentinel
+
+Monitoramento de Segurança Centralizado: Um SIEM (Security Information and Event Management) inteligente que agrega dados de segurança de toda a organização e usa inteligência artificial para detectar ameaças e reduzir o tempo de resposta a incidentes.
+Benefícios do Monitoramento Inteligente:
+Proatividade: Detecta problemas antes que eles afetem a operação, permitindo resolução rápida ou preventiva.
+Automação: Ações automáticas podem ser acionadas em resposta a problemas, melhorando a eficiência na mitigação.
+Otimização Contínua: Insights detalhados permitem ajustes contínuos no desempenho e na eficiência de recursos, garantindo economia e alta disponibilidade.
+Segurança Reforçada: Monitoramento inteligente identifica e responde a vulnerabilidades e ataques em tempo real.
+O monitoramento inteligente no Azure garante que a infraestrutura e os aplicativos estejam sempre funcionando de forma otimizada, segura e resiliente, com base em dados e automação para melhorar a eficiência e reduzir o tempo de inatividade.
+
